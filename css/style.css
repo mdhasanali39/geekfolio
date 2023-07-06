@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navbar style start  */
+.navbar{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: rgb(76, 70, 70);
+}
+.logo-parent .logo{
+    width: 100px;
+}
+.menu-lists{
+    display: flex;
+    gap: 62px;
+    list-style-type: none;
+}
+.menu-lists li{
+    margin-top: -8px;
+}
+.menu-lists li a{
+    font-size: 19px;
+    text-decoration: none;
+    color: #ffffff;
+}
+/* hero section Start style  */
+.hero-container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("../images/background.png"),linear-gradient(45deg,rgb(5, 5, 5), #2e2e2e);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+.hero-img-outer .hero-img{
+    width: 300px;
+}
+.hero-text{
+    color: #ffffff;
+}
+.hero-text h1{
+    font-size: 54px;
+}
+.hero-text p{
+    font-size: 18px;
+    margin: 20px 0;
+}
+.btn{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+/* hero and about btn some feature*/
+.hero-btn, .about-us-btn{
+    background: red;
+    color: #ffffff;
+    transition: color .3s linear, background-color .3s linear;
+}
+/* hero and about btn hover effects*/
+.hero-btn:hover, .about-us-btn:hover{
+    color: red;
+    background-color: #ffffff;
+    outline: 1px solid red;
+}
