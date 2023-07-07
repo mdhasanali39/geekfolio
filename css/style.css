@@ -135,3 +135,65 @@
     background-color: #ffffff;
     color: gray;
 }
+
+/* footer section Start styling */
+.footer-section{
+    height: 70vh;
+    background-image: url("./asset/image/footer-bg.png"),linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    background-repeat:no-repeat;
+    background-blend-mode: overlay;
+}
+.footer-section-container{
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 70px;
+}
+.logo-box{
+    flex-basis: 20%;
+}
+.logo-box p{
+    color: white;
+    line-height: 1.8;
+}
+.logo-box .logo{
+    width: 160px;
+}
+.logo-box, .useful-links, .supports, .contacts{
+    height: 100px;
+}
+.useful-links h4, .supports h4{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.useful-links li, .supports li{
+    list-style-type: none;
+    line-height: 1.8;
+}
+.useful-links li a, .supports li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+.contacts{
+    color: white;
+}
+.contacts h4{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+/* copyright */
+.copyright{
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+}
+.hr-line{
+    width: 81.5%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
